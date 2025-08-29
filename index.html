@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIFF 50 Tracker – Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>TIFF 50 – Sept 4–14, 2025</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="films.html">Films & Schedule</a>
+        <a href="coverage.html">Coverage</a>
+        <a href="mylist.html">My List</a>
+    </nav>
+    <div id="countdown" class="countdown"></div>
+</header>
+<main>
+    <section class="hero">
+        <h2>Welcome to TIFF 50</h2>
+        <p>Explore selected films and articles from the Toronto International Film Festival’s 50th edition.</p>
+    </section>
+    <section class="strip" id="featured-coverage">
+        <h3>Featured Coverage</h3>
+        <div class="cards" id="featured-cards"></div>
+    </section>
+    <section class="strip" id="international-spotlight">
+        <h3>International Spotlight</h3>
+        <div class="cards" id="international-cards"></div>
+    </section>
+    <section class="stats">
+        <p id="stat-text"></p>
+    </section>
+</main>
+<div id="login-modal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Session Expired</h2>
+        <p>Your guest session has expired. Please log in to continue.</p>
+        <button onclick="resetSession()">Simulate Login</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
